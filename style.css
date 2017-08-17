@@ -1,0 +1,37 @@
+body{
+	background-color: #EDEFF0;
+}
+.container{
+	background-color: #fff;
+	border-radius: 5px;
+}
+.pics-container{
+	padding: 0.9375rem;
+}
+.pics{
+	-moz-border-radius: 5px;
+	-moz-transition: 0.3s;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-o-transition: 0.3s;
+	-webkit-border-radius: 5px;
+	-webkit-transition: 0.3s;
+	background: #EDEFF0;
+	border-radius: 5px;
+	min-height: 220px;
+	text-align: center;
+	transition: 0.3s;
+}
+img{
+	/*======= align images center verically =======*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+   	transform: translate(-50%, -50%);
+   	/*==============================================*/
+	max-width: 90%;
+ 	max-height: 220px;
+  	-webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  	-moz-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+}
