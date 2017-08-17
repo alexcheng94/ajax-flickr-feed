@@ -1,7 +1,7 @@
 $(function(){
   var $button = $('#button');
   var $input = $('#input');
-  var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+  var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
 
   // Bind Enter key to $button
   $(window).keypress(function(e){
